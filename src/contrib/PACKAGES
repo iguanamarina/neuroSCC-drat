@@ -9,8 +9,8 @@ NeedsCompilation: yes
 
 Package: ImageSCC
 Version: 0.1.0
-Depends: R (>= 2.10), MASS, Matrix, BPST, Triangulation,
-      graphics, RSpectra, pracma
+Depends: R (>= 2.10), MASS, Matrix, BPST, Triangulation, graphics,
+       RSpectra, pracma
 License: GPL (>= 2)
 MD5sum: 8b9e789716621ffaea0438aea81a8b8f
 NeedsCompilation: no
@@ -18,12 +18,12 @@ NeedsCompilation: no
 Package: neuroSCC
 Version: 1.0.0
 Depends: R (>= 4.2.0)
-Imports: contoureR, dplyr, graphics, memisc, oro.nifti,
-      stats, tidyr, utils
-Suggests: BPST, ImageSCC, knitr, rcmdcheck, remotes,
-      rmarkdown, roxygen2 (>= 7.1.0), Triangulation
+Imports: contoureR, dplyr, graphics, memisc, oro.nifti, stats,
+       tidyr, utils
+Suggests: BPST, ImageSCC, knitr, rcmdcheck, remotes, rmarkdown,
+       roxygen2 (>= 7.1.0), Triangulation
 License: MIT + file LICENSE
-MD5sum: 9e7d748c901d810bbdaa03804cea44d4
+MD5sum: 7070f732aece9b2b1c4fd9b1d0488d0a
 NeedsCompilation: no
 
 Package: Triangulation
