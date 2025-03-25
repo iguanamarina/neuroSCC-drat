@@ -1,0 +1,24 @@
+Package: BPST
+Version: 1.1.0
+Depends: R (>= 3.5.0), Matrix, pracma
+Imports: Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+MD5sum: c4f6322a83e6430ace39610cb43e58b6
+NeedsCompilation: yes
+
+Package: ImageSCC
+Version: 0.1.0
+Depends: R (>= 2.10), MASS, Matrix, BPST,
+     Triangulation, graphics, RSpectra, pracma
+License: GPL (>= 2)
+MD5sum: 8b9e789716621ffaea0438aea81a8b8f
+NeedsCompilation: no
+
+Package: Triangulation
+Version: 1.0.0
+Depends: R (>= 3.5.0)
+Imports: pracma, tripack
+License: GPL (>= 2)
+MD5sum: f2d884e9019b8bce81ed8feba5ae554f
+NeedsCompilation: no
