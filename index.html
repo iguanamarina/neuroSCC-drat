@@ -9,14 +9,15 @@
   <h1>Drat Repository for the neuroSCC Package</h1>
 
   <p>
-    This is a custom <strong>drat</strong> repository hosting the <code>neuroSCC</code> package and its dependencies:
-    <code>ImageSCC</code>, <code>BPST</code>, and <code>Triangulation</code>. These packages are not available on CRAN
-    and are necessary for running SCC-based neuroimaging analyses as described in Wang et al. (2020).
+    This is a custom <strong>drat</strong> repository hosting the <code>neuroSCC</code> package along with
+    optional suggested packages: <code>ImageSCC</code>, <code>BPST</code>, and <code>Triangulation</code>.
+    These packages extend the functionality of <code>neuroSCC</code> for Simultaneous Confidence Corridor (SCC)
+    computations and related triangulation methods, and are not available on CRAN.
   </p>
 
   <h2>Installation Instructions</h2>
 
-  <p>To install <code>neuroSCC</code> and all its dependencies, run the following command in your R console:</p>
+  <p>To install <code>neuroSCC</code> along with the suggested packages, run the following command in your R console:</p>
 
   <pre><code>
 install.packages("neuroSCC", dep = TRUE,
@@ -25,8 +26,8 @@ install.packages("neuroSCC", dep = TRUE,
   </code></pre>
 
   <p>
-    This will automatically configure your repositories and install <code>neuroSCC</code> along with the required
-    packages from this drat repository.
+    This will install <code>neuroSCC</code> from this repository and automatically fetch any additional CRAN packages it requires.
+    The suggested packages from this drat repo will also be installed if they are referenced via <code>Suggests</code> or used in your workflow.
   </p>
 
 </body>
