@@ -1,1 +1,33 @@
-<!doctype html><title>drat repository</title><p>This is a drat repository used by the neuroSCC package.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>neuroSCC-drat repository</title>
+</head>
+<body>
+
+  <h1>Drat Repository for the neuroSCC Package</h1>
+
+  <p>
+    This is a custom <strong>drat</strong> repository hosting the <code>neuroSCC</code> package and its dependencies:
+    <code>ImageSCC</code>, <code>BPST</code>, and <code>Triangulation</code>. These packages are not available on CRAN
+    and are necessary for running SCC-based neuroimaging analyses as described in Wang et al. (2020).
+  </p>
+
+  <h2>Installation Instructions</h2>
+
+  <p>To install <code>neuroSCC</code> and all its dependencies, run the following command in your R console:</p>
+
+  <pre><code>
+install.packages("neuroSCC", dep = TRUE,
+                 repos = c("https://iguanamarina.github.io/neuroSCC-drat",
+                           "https://cloud.r-project.org"))
+  </code></pre>
+
+  <p>
+    This will automatically configure your repositories and install <code>neuroSCC</code> along with the required
+    packages from this drat repository.
+  </p>
+
+</body>
+</html>
